@@ -1,5 +1,4 @@
 import React from "react";
-import LogoName from "@Public/svgs/nexter-footer-logo.svg";
 import Link from "next/link";
 import { handleGaEvent } from "@Utils/googleanalytics";
 import Telegram from "public/svgs/telegram.svg";
@@ -8,9 +7,8 @@ import Github from "public/svgs/github.svg";
 import Twitter from "public/svgs/twitter.svg";
 import { upperCase } from "@Utils/common";
 import { useTranslation } from "react-i18next";
-import resolveConfig from "tailwindcss/resolveConfig";
-import tailwindConfig from "../../../tailwind.config";
 import Image from "next/image";
+
 const socialLink = [
     {
         name: "Twitter",
@@ -45,8 +43,6 @@ const socialLink = [
 ];
 
 const PoweredByBhavish = () => {
-    const fullConfig = resolveConfig(tailwindConfig);
-
     const { t } = useTranslation();
     return (
         <div className="flex flex-col sm:gap-4 gap-5 w-full mb-6">

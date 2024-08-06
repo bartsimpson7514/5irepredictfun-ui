@@ -23,7 +23,7 @@ const RestrictedInfo = () => {
                     <a
                         target="_blank"
                         className="text-primary-blue underline"
-                        href=""
+                        href="/"
                         rel="noreferrer"
                     >
                         know more

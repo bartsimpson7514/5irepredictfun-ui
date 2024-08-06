@@ -173,7 +173,7 @@ const QuestLayout: React.FC = () => {
                         {t("QuestImagesNote ")}
                         <a
                             className="text-primary-100 underline underline-offset-1"
-                            href=""
+                            href="/"
                             target="_blank"
                             rel="noreferrer"
                         >

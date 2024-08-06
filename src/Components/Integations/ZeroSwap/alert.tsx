@@ -18,27 +18,25 @@ const Alert = () => {
         >
             <div className=" sm:text-sm text-xs mr-12 sm:mr-0 text-asset-text">
                 {t("Quickswap_Text")}
-                <a
-                    href=""
-                    target="_blank"
-                    rel="noreferrer"
+                <span
+                    tabIndex={0}
+                    role="link"
                     onClick={() => handleGaEvent(upperCase("GITBOOK"))}
                 >
                     <span className="text-asset-text font-bold underline underline-offset-4">
                         {t("Gitbook ")}
                     </span>
-                </a>
+                </span>
                 {t("more_details ")}
-                <a
-                    href=""
-                    target="_blank"
-                    rel="noreferrer"
+                <span
+                    role="link"
+                    tabIndex={0}
                     onClick={() => handleGaEvent(upperCase("terms of use"))}
                 >
                     <span className="text-asset-text font-bold underline underline-offset-4">
                         {t("Terms of Use")}
                     </span>
-                </a>
+                </span>
                 .
             </div>
         </ZeroSwapAlertMessage>

@@ -29,16 +29,15 @@ const Alert = () => {
                     </span>
                 </a>
                 {t("more_details ")}
-                <a
-                    href=""
-                    target="_blank"
-                    rel="noreferrer"
+                <span
+                    tabIndex={0}
+                    role="link"
                     onClick={() => handleGaEvent(upperCase("terms of use"))}
                 >
                     <span className="text-primary-blue font-medium underline underline-offset-4">
                         {t("Terms of Use")}
                     </span>
-                </a>
+                </span>
                 .
             </div>
         </QuickSwapAlertMessage>

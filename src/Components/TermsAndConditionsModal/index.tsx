@@ -32,13 +32,13 @@ const TermsAndConditionsModal = () => {
 
                 <div className="text-sm my-4">
                     {`${t("Click_Proceed_Text")} `}
-                    <a href="" target="_blank" rel="noreferrer">
+                    <a href="/" target="_blank" rel="noreferrer">
                         <span className="curosr text-primary-blue font-semibold underline">
                             {t("Terms of Use")}
                         </span>
                     </a>
                     {" & "}
-                    <a href="" target="_blank" rel="noreferrer">
+                    <a href="/" target="_blank" rel="noreferrer">
                         <span className="curosr text-primary-blue font-semibold underline">
                             {t("Risk Disclosure")}
                         </span>

@@ -65,10 +65,8 @@ import WrongNetwork from "./wrong-network";
 
 const LogoHeader = () => {
     return (
-        <a
-            href=""
-            target="_blank"
-            rel="noreferrer"
+        <button
+            type="button"
             onClick={() => {
                 handleGaEvent("BHAVISH LANDING PAGE CLICKED");
             }}
@@ -76,7 +74,7 @@ const LogoHeader = () => {
             <Logo className="w-8 h-8 block sm:hidden" />
 
             <LogoName className="hidden sm:block" />
-        </a>
+        </button>
     );
 };
 

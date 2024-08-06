@@ -72,10 +72,8 @@ const FooterTitle = () => {
 const LogoHeader = () => {
     return (
         <>
-            <a
-                href=""
-                target="_blank"
-                rel="noreferrer"
+            <button
+                type="button"
                 onClick={() => {
                     handleGaEvent("BHAVISH LANDING PAGE CLICKED");
                 }}
@@ -83,7 +81,7 @@ const LogoHeader = () => {
                 <LogoNameMweb className="h-5 sm:hidden" />
 
                 <LogoName className="h-5 sm:block hidden" />
-            </a>
+            </button>
         </>
     );
 };

@@ -240,7 +240,7 @@ const CardBuybody = ({ ...props }) => {
             >
                 <span className="text-xs">
                     {t("Terms_Conditions_Text")}
-                    <a href="" target="_blank" rel="noreferrer">
+                    <a href="/" target="_blank" rel="noreferrer">
                         <span className="curosr text-primary ml-1">
                             {t("Read more")}
                         </span>

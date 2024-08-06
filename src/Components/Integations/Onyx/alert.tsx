@@ -29,16 +29,15 @@ const Alert = () => {
                     </span>
                 </a>
                 {t("more_details ")}
-                <a
-                    href=""
-                    target="_blank"
-                    rel="noreferrer"
+                <span
+                    tabIndex={0}
+                    role="link"
                     onClick={() => handleGaEvent(upperCase("terms of use"))}
                 >
                     <span className="text-[#217BF4] font-bold underline underline-offset-2">
                         {t("Terms of Use")}
                     </span>
-                </a>
+                </span>
                 .
             </div>
         </OnyxAlertMessage>

@@ -67,7 +67,7 @@ const BGNNotSupportedSection = ({ title }) => {
                         {`${title} strategies are in the works. Stay tuned to
                 our `}
                         <a
-                            href=""
+                            href="/"
                             target="_blank"
                             rel="noreferrer"
                             className="gradient-text bg-footer-text underline text-sm"

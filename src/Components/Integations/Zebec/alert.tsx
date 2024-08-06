@@ -29,16 +29,15 @@ const Alert = () => {
                     </span>
                 </a>
                 {t("more_details ")}
-                <a
-                    href=""
-                    target="_blank"
-                    rel="noreferrer"
+                <span
+                    role="link"
+                    tabIndex={0}
                     onClick={() => handleGaEvent(upperCase("terms of use"))}
                 >
                     <span className="text-[#E0AE1F] font-bold underline underline-offset-4">
                         {t("Terms of Use")}
                     </span>
-                </a>
+                </span>
                 .
             </div>
         </ZebecAlertMessage>

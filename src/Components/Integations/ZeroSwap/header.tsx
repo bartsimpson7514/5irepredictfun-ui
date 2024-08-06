@@ -1,6 +1,5 @@
 import React, { useEffect, useState, Fragment, useRef } from "react";
 import { useWeb3React } from "@web3-react/core";
-import Logo from "public/images/5ire.png";
 
 import { useDispatch, useSelector } from "react-redux";
 import { AppState } from "@Redux";
@@ -83,11 +82,8 @@ const LogoHeader = () => {
             }}
         >
             {/* <Logo className="w-8 h-8 block sm:hidden" /> */}
-            <Image
-                src="/images/logo_predict_fun.png"
-                height="50"
-                width="50"
-            />{" "}
+            <Image src="/images/logo_predict_fun.png" height="50" width="50" />
+            {` `}
             <span className="font-bold text-[24px]">5irepredict.fun</span>
         </a>
     );
@@ -782,16 +778,16 @@ const ZeroswapHeader = ({ setMagicLoading }) => {
                                         </div>
                                         <div className="px-5 py-6 space-y-6">
                                             <div className="grid grid-cols-3 ml-2 gap-y-4 gap-x-5">
-                                                <a
+                                                {/* <a
                                                     href=""
                                                     target="_blank"
-                                                    className="  text-base font-normal group text-[#0C111F] "
+                                                    className="text-base font-normal group text-[#0C111F] "
                                                     rel="noopener noreferrer"
                                                 >
                                                     <span className="group-hover:bg-clip-text group-hover:text-transparent group-hover:bg-gradient-to-r from-[#087EE1] to-[#04C29C]">
                                                         Docs
                                                     </span>
-                                                </a>
+                                                </a> */}
                                                 {/* <a
                                                     href="/"
                                                     target="_blank"

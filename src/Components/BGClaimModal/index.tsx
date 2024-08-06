@@ -233,7 +233,7 @@ export const BGClaimModal: FC<IBGClaimModal> = ({ open, onClose }) => {
                     <p className="text-xs text-primary-200">
                         {t("claim_confirm_text")}
                         <a
-                            href=""
+                            href="/"
                             target="_blank"
                             rel="noreferrer"
                             className="text-primary-100 ml-0.5 mr-1 underline underline-offset-2"
@@ -243,7 +243,7 @@ export const BGClaimModal: FC<IBGClaimModal> = ({ open, onClose }) => {
 
                         {` ${t("and")} `}
                         <a
-                            href=""
+                            href="/"
                             target="_blank"
                             rel="noreferrer"
                             className="text-primary-100 ml-0.5 mr-1 underline underline-offset-2"

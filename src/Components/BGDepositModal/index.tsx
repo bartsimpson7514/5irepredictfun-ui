@@ -333,7 +333,7 @@ export const BGDepositModal: FC<IBGDepositModal> = ({ open, onClose }) => {
 
                                 {` ${t("and")} `}
                                 <a
-                                    href=""
+                                    href="/"
                                     target="_blank"
                                     rel="noreferrer"
                                     className="text-primary-100 ml-0.5 mr-1 underline underline-offset-2"
