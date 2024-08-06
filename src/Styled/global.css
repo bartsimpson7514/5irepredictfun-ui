@@ -1,0 +1,108 @@
+/* eslint-disable */
+/*CSS override*/
+
+.sticky-table-table {
+    width: 100%;
+}
+
+.sticky-table-row {
+    margin: 1rem;
+}
+
+.speedometerTitle-RaUvtPLE {
+    font-size: 10px !important;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.fadeInAnimated {
+    opacity: 0;
+    animation: fadeIn 3s forwards; /* forwards (animation-fill-mode) retains the style from the last keyframe when the animation ends */
+}
+
+.two {
+    animation-delay: 1s;
+}
+
+.three {
+    animation-delay: 2s;
+}
+
+.four {
+    animation-delay: 3s;
+}
+
+.QuickSwapLoader {
+    animation: QuickSwapLoader-keyframes-pulse 1.5s ease-in-out 0.5s infinite;
+    margin-top: 0;
+    border-radius: 4px;
+    margin-bottom: 0;
+    background-color: rgba(199, 202, 217, 0.11);
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  border: 1px solid #404557;
+  -webkit-text-fill-color: gray;
+  -webkit-box-shadow: 0 0 0px 1000px #404557 inset;
+  box-shadow: 0 0 0px 1000px #404557 inset;
+  transition: background-color 5000s ease-in-out 0s;
+  color: white;
+}
+
+@keyframes QuickSwapLoader-keyframes-pulse {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.4;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.scroll-hide::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .scroll-hide {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+
+  .gradient-text{
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .gradient-text-hover-ZEROSWAP:hover{
+   background: #00a7dc;
+    color:transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+  }
+
+  .gradient-text-focus:focus{
+     color:transparent;
+     -webkit-background-clip: text;
+     background-clip: text;
+   }
+   .MuiInputBase-input{
+       background-color: rgb(246 246 247) !important;
+   }
