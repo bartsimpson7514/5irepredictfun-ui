@@ -3123,7 +3123,7 @@ export const BHAVISH_VAULT_GRAPH_API = {
 
 export const BHAVISH_QUEST_GRAPH_API = {
     [ODDZ_NETWORK.MATIC_MAINNET]:
-        "https://api.thegraph.com/subgraphs/name/bhargav55/quest",
+        "https://gateway-arbitrum.network.thegraph.com/api/d69c59bb335dd01492603cdb910cb187/subgraphs/id/AZymHGjnsHc59StoMdvbhoVoNbutKXDJu7i6rwowApsQ",
     [ODDZ_NETWORK.BSC_MAINNET]:
         "https://api.thegraph.com/subgraphs/name/bhargav55/bsc-quest",
     [ODDZ_NETWORK.BSC_TEST]:
@@ -3157,7 +3157,7 @@ export const BHAVISH_QUEST_GRAPH_API = {
 export const BHAVISH_PRICE_FEED = {
     MATIC: {
         [ODDZ_NETWORK.MATIC_MAINNET]:
-            "https://api.thegraph.com/subgraphs/name/bhargav55/polygon-price-charts",
+            "https://gateway-arbitrum.network.thegraph.com/api/d69c59bb335dd01492603cdb910cb187/subgraphs/id/4swjPigC29vREVFzxPyxSM8zXhAjn2zabfjHuujauc8X",
         [ODDZ_NETWORK.BSC_MAINNET]:
             "https://api.thegraph.com/subgraphs/name/bhargav55/arbitrum-price-chart",
         [ODDZ_NETWORK.BSC_TEST]:

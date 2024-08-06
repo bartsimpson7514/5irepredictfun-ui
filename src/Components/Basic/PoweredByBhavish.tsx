@@ -1,9 +1,6 @@
 import React from "react";
 import Link from "next/link";
 import { handleGaEvent } from "@Utils/googleanalytics";
-import Telegram from "public/svgs/telegram.svg";
-import Discord from "public/svgs/discord.svg";
-import Github from "public/svgs/github.svg";
 import Twitter from "public/svgs/twitter.svg";
 import { upperCase } from "@Utils/common";
 import { useTranslation } from "react-i18next";
@@ -12,33 +9,9 @@ import Image from "next/image";
 const socialLink = [
     {
         name: "Twitter",
-        url: "",
+        url: "https://x.com/5irepredictfun",
         eventName: "TWITTER ICON CLICKED",
         Icon: Twitter,
-    },
-    {
-        name: "Telegram",
-        url: "",
-        eventName: "TELEGRAM ICON CLICKED",
-        Icon: Telegram,
-    },
-    {
-        name: "Github",
-        url: "",
-        eventName: "GITHUB ICON CLICKED",
-        Icon: Github,
-    },
-    // {
-    //     name: "Medium",
-    //     url: "https://medium.com/bhavish-finance",
-    //     eventName: "MEDIUM ICON CLICKED",
-    //     Icon: Medium,
-    // },
-    {
-        name: "Discord",
-        url: "",
-        eventName: "DISCORD ICON CLICKED",
-        Icon: Discord,
     },
 ];
 
